@@ -15,7 +15,5 @@ internal class PositiveOrNegative
             Console.WriteLine("The number is negative.");
         else
             Console.WriteLine("The number is zero.");
-
-        
     }
 }

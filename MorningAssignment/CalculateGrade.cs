@@ -23,7 +23,7 @@ public class CalculateGrade
         Mathematics = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter marks in Computer: ");
-        Computer = Convert.ToDouble(Console.ReadLine());
+        Computer = Convert.ToDouble(Console.ReadLine());        
     }
 
 }
