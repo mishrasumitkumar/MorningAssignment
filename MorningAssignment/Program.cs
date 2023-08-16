@@ -74,5 +74,69 @@ internal class Program
         //int num = Convert.ToInt32(Console.ReadLine());
         //PrintTable table = new PrintTable(num);
         //table.Table();
+
+        //ReverseNumber reversenum = new ReverseNumber();
+        //Console.Write("Enter a number: ");
+        //int number = int.Parse(Console.ReadLine());
+        //int reversedNumber = reversenum.Reversenumber(number);
+        //Console.WriteLine($"Reverse of {number} is {reversedNumber}");
+
+        //palindrome palindrom = new palindrome();    
+        //Console.Write("Enter a number: ");
+        //int num = int.Parse(Console.ReadLine());
+        //if (palindrom.IsPalindrome(num))
+        //{
+        //    Console.WriteLine($"{num} is a palindrome.");
+        //}
+        //else
+        //{
+        //    Console.WriteLine($"{num} is not a palindrome.");
+        //}
+
+        //CountDigit countdigit = new CountDigit();
+        //Console.Write("Enter a number: ");
+        //int num = int.Parse(Console.ReadLine());
+        //int digitCount = countdigit.CountDigits(num);
+        //Console.WriteLine($"The number of digits in {num} is: {digitCount}");
+
+        //GreaterNumber GreaterNumber = new GreaterNumber();
+        //Console.WriteLine("Enter the first number:");
+        //int num1 = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Enter the second number:");
+        //int num2 = Convert.ToInt32(Console.ReadLine());
+        //int greaterNumber = GreaterNumber.Greaternumber(num1, num2);
+        //Console.WriteLine($"The greater number between {num1} and {num2} is: {greaterNumber}");
+
+        //AmrstrongNumber AmrstrongNumber = new AmrstrongNumber();
+        //Console.WriteLine("Armstrong Numbers between 1 and 100:");
+        //for (int i = 1; i <= 100; i++)
+        //{
+        //    if (AmrstrongNumber.IsArmstrongNumber(i))
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //RotateArray RotateArray = new RotateArray();
+        //int[] arr = { 1, 2, 3, 4, 5 };
+        //int rotations = 2; 
+        //Console.WriteLine("Original Array:");
+        //RotateArray.PrintArray(arr);
+        //RotateArray.LeftRotateArray(arr, rotations);
+        //Console.WriteLine($"\nArray after {rotations} left rotations:");
+        //RotateArray.PrintArray(arr);
+
+        //SquarePattern SquarePattern = new SquarePattern();
+        //Console.Write("Enter length of the square: ");
+        //int sideLength = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Printing square pattern:");
+        //SquarePattern.PrintSquare(sideLength);
+        //Console.ReadLine();
+
+        RightTrianglePattern RightTrianglePattern = new RightTrianglePattern();
+        Console.Write("Enter height of the right triangle: ");
+        int height = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Right Triangle  Pattern:");
+        RightTrianglePattern.PrintRightTriangle(height);
     }
 }
