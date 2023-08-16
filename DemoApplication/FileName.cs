@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DemoApplication
 {
-    internal class FileName
+    public class FileName
     {
+        //Console.writeline
     }
 }
