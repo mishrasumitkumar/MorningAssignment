@@ -139,28 +139,38 @@ internal class Program
         //Console.WriteLine("Right Triangle  Pattern:");
         //RightTrianglePattern.PrintRightTriangle(height);
 
-        //CountCharacters countCharacters = new CountCharacters();
-        //Console.WriteLine("Enter a string:");
-        //string input = Console.ReadLine();
-        //int charCount = countCharacters.CountCharacter(input);
-        //Console.WriteLine($"Number of characters in the string: {charCount}");
+        CountCharacters countCharacters = new CountCharacters();
+        Console.WriteLine("Enter a string:");
+        string input = Console.ReadLine();
+        int charCount = countCharacters.CountCharacter(input);
+        Console.WriteLine($"Number of characters in the string: {charCount}");
 
-        //Console.Write("Enter a string containing numbers: ");
+        Console.Write("Enter a string containing numbers: ");
         //string input = Console.ReadLine();
-        //CountNumbers countNumbers = new CountNumbers();
+        CountNumbers countNumbers = new CountNumbers();
         //CountNumbers.CountAllNumbers(input);
 
 
-        //SumArrayElements sumArrayElements = new SumArrayElements();
-        //Console.WriteLine("Enter the number of elements in the array:");
-        //int n = int.Parse(Console.ReadLine());
-        //int[] array = new int[n];
-        //Console.WriteLine("Enter the elements of the array:");
-        //for (int i = 0; i < n; i++)
-        //{
-        //    array[i] = int.Parse(Console.ReadLine());
-        //}
-        //int totalSum = sumArrayElements.SumArrayElement(array);
-        //Console.WriteLine("Sum of array elements: " + totalSum);
+        SumArrayElements sumArrayElements = new SumArrayElements();
+        Console.WriteLine("Enter the number of elements in the array:");
+        int n = int.Parse(Console.ReadLine());
+        int[] array = new int[n];
+        Console.WriteLine("Enter the elements of the array:");
+        for (int i = 0; i < n; i++)
+        {
+            array[i] = int.Parse(Console.ReadLine());
+        }
+        int totalSum = sumArrayElements.SumArrayElement(array);
+        Console.WriteLine("Sum of array elements: " + totalSum);
+
+        NumberSwap numberSwap = new NumberSwap();
+        double num1, num2;
+        Console.Write("Enter the first number: ");
+        num1 = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Enter the second number: ");
+        num2 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine($"Before swapping: num1 = {num1}, num2 = {num2}");
+        numberSwap.Swap(ref num1, ref num2);
+        Console.WriteLine($"After swapping: num1 = {num1}, num2 = {num2}");
     }
 }
