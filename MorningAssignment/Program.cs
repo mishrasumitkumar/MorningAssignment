@@ -74,15 +74,5 @@ internal class Program
         //int num = Convert.ToInt32(Console.ReadLine());
         //PrintTable table = new PrintTable(num);
         //table.Table();
-
-        //StrongNumber strongNumber = new StrongNumber();
-        //Console.WriteLine("Strong numbers between 1 and 200:");
-        //for (int i = 1; i <= 200; i++)
-        //{
-        //    if (strongNumber.IsStrongNumber(i))
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
     }
 }
