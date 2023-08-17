@@ -119,7 +119,7 @@ internal class Program
 
         //RotateArray RotateArray = new RotateArray();
         //int[] arr = { 1, 2, 3, 4, 5 };
-        //int rotations = 2; 
+        //int rotations = 2;
         //Console.WriteLine("Original Array:");
         //RotateArray.PrintArray(arr);
         //RotateArray.LeftRotateArray(arr, rotations);
@@ -133,10 +133,34 @@ internal class Program
         //SquarePattern.PrintSquare(sideLength);
         //Console.ReadLine();
 
-        RightTrianglePattern RightTrianglePattern = new RightTrianglePattern();
-        Console.Write("Enter height of the right triangle: ");
-        int height = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Right Triangle  Pattern:");
-        RightTrianglePattern.PrintRightTriangle(height);
+        //RightTrianglePattern RightTrianglePattern = new RightTrianglePattern();
+        //Console.Write("Enter height of the right triangle: ");
+        //int height = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Right Triangle  Pattern:");
+        //RightTrianglePattern.PrintRightTriangle(height);
+
+        //CountCharacters countCharacters = new CountCharacters();
+        //Console.WriteLine("Enter a string:");
+        //string input = Console.ReadLine();
+        //int charCount = countCharacters.CountCharacter(input);
+        //Console.WriteLine($"Number of characters in the string: {charCount}");
+
+        //Console.Write("Enter a string containing numbers: ");
+        //string input = Console.ReadLine();
+        //CountNumbers countNumbers = new CountNumbers();
+        //CountNumbers.CountAllNumbers(input);
+
+
+        //SumArrayElements sumArrayElements = new SumArrayElements();
+        //Console.WriteLine("Enter the number of elements in the array:");
+        //int n = int.Parse(Console.ReadLine());
+        //int[] array = new int[n];
+        //Console.WriteLine("Enter the elements of the array:");
+        //for (int i = 0; i < n; i++)
+        //{
+        //    array[i] = int.Parse(Console.ReadLine());
+        //}
+        //int totalSum = sumArrayElements.SumArrayElement(array);
+        //Console.WriteLine("Sum of array elements: " + totalSum);
     }
 }
