@@ -1,9 +1,9 @@
 ﻿namespace MorningAssignment;
 
-internal class RotateArray
+internal class LeftRotateArray
 {
 
-    public void LeftRotateArray(int[] arr, int rotations)
+    public void LeftRotateArry(int[] arr, int rotations)
     {
         int length = arr.Length;
         for (int r = 0; r < rotations; r++)

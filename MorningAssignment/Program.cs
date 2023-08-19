@@ -115,16 +115,7 @@ internal class Program
         //    {
         //        Console.WriteLine(i);
         //    }
-        //}
-
-        //RotateArray RotateArray = new RotateArray();
-        //int[] arr = { 1, 2, 3, 4, 5 };
-        //int rotations = 2;
-        //Console.WriteLine("Original Array:");
-        //RotateArray.PrintArray(arr);
-        //RotateArray.LeftRotateArray(arr, rotations);
-        //Console.WriteLine($"\nArray after {rotations} left rotations:");
-        //RotateArray.PrintArray(arr);
+        //}      
 
         //SquarePattern SquarePattern = new SquarePattern();
         //Console.Write("Enter length of the square: ");
@@ -182,5 +173,99 @@ internal class Program
         //        Console.WriteLine(i);
         //    }
         //}
+
+        //LeftRotateArray RotateArray = new LeftRotateArray();
+        //int[] arr = { 1, 2, 3, 4, 5 };
+        //int rotations = 2;
+        //Console.WriteLine("Original Array:");
+        //RotateArray.PrintArray(arr);
+        //RotateArray.LeftRotateArry(arr, rotations);
+        //Console.WriteLine($"\nArray after {rotations} left rotations:");
+        //RotateArray.PrintArray(arr);
+
+        //InsertionSort insertionSort = new InsertionSort();
+        //int[] arr = { 14, 16, 19, 3, 7 };
+        //Console.WriteLine("Original Array:");
+        //insertionSort.PrintArray(arr);
+        //insertionSort.InsertionSortFunction(arr);
+        //Console.WriteLine("\nSorted Array:");
+        //insertionSort.PrintArray(arr);
+
+        //RightRotateArray rightRotateArray = new RightRotateArray(); 
+        //int[] arr = { 1, 2, 3, 4, 5 };
+        //Console.WriteLine("Original Array:");
+        //rightRotateArray.PrintArray(arr);
+        //for (int i = 0; i < arr.Length; i++)
+        //{
+        //    Console.WriteLine($"Step {i + 1}:");
+        //    rightRotateArray.RightRotate(arr);
+        //    rightRotateArray.PrintArray(arr);
+        //}
+        //Console.WriteLine("Final Rotated Array:");
+        //rightRotateArray.PrintArray(arr);
+
+        //FindElementFromArray findElement = new FindElementFromArray();
+        //int[] numbers = { 10, 11, 21, 31, 41, 51, 61, 71, 81, 91 };
+        //Console.Write("Enter the element to find: ");
+        //int target = Convert.ToInt32(Console.ReadLine());
+        //int index = findElement.FindElement(numbers, target);
+        //if (index != -1)
+        //{
+        //    Console.WriteLine($"Element {target} found in the array");
+        //}
+        //else
+        //{
+        //    Console.WriteLine($"Element {target} not found in the array");
+        //}
+
+        //DeleteFromArray deleteFromArray = new DeleteFromArray();
+        //int[] myArray = { 1, 2, 3, 4, 5 };
+        //Console.WriteLine("Original Array:");
+        //foreach (int num in myArray)
+        //{
+        //    Console.Write(num + " ");
+        //}
+        //Console.Write("\nEnter the index to delete: ");
+        //int indexToDelete = Convert.ToInt32(Console.ReadLine());
+
+        //myArray = deleteFromArray.DeleteElement(myArray, indexToDelete);
+        //Console.WriteLine("\nArray after delete:");
+        //foreach (int num in myArray)
+        //{
+        //    Console.Write(num + " ");
+        //}
+        //Console.WriteLine();
+
+        //PrintArrayItems printArrayItems = new PrintArrayItems();
+        //int[] arr = { 10, 20, 30, 40, 50 };
+        //printArrayItems.PrintArrayItms(arr);
+        //Console.ReadLine();
+
+        //MergeArray mergeArray = new MergeArray();
+        //int[] array1 = { 10, 20, 30, 40 };
+        //int[] array2 = { 50, 60, 70, 80 };
+        //int[] mergedArray = mergeArray.MergeArrays(array1, array2);
+        //Console.WriteLine("Merged Array:");
+        //foreach (int num in mergedArray)
+        //{
+        //    Console.Write(num + " ");
+        //}
+        //Console.ReadLine();
+
+        //MultiplyArray multiplyArray = new MultiplyArray();
+        //int[] array1 = { 1, 2, 3, 4, 5 };
+        //int[] array2 = { 6, 7, 8, 9, 10};
+        //int[] resultArray = multiplyArray.MultiplyArrays(array1, array2);
+        //Console.WriteLine("After Multiplication:");
+        //foreach (int result in resultArray)
+        //{
+        //    Console.Write(result + " ");
+        //}
+
+        NamePattern namePattern = new NamePattern();
+        Console.Write("Enter your name: ");
+        string name = Console.ReadLine();
+        namePattern.PrintNamePattern(name);
+        Console.ReadLine(); 
     }
 }
