@@ -74,5 +74,113 @@ internal class Program
         //int num = Convert.ToInt32(Console.ReadLine());
         //PrintTable table = new PrintTable(num);
         //table.Table();
+
+        //ReverseNumber reversenum = new ReverseNumber();
+        //Console.Write("Enter a number: ");
+        //int number = int.Parse(Console.ReadLine());
+        //int reversedNumber = reversenum.Reversenumber(number);
+        //Console.WriteLine($"Reverse of {number} is {reversedNumber}");
+
+        //palindrome palindrom = new palindrome();    
+        //Console.Write("Enter a number: ");
+        //int num = int.Parse(Console.ReadLine());
+        //if (palindrom.IsPalindrome(num))
+        //{
+        //    Console.WriteLine($"{num} is a palindrome.");
+        //}
+        //else
+        //{
+        //    Console.WriteLine($"{num} is not a palindrome.");
+        //}
+
+        //CountDigit countdigit = new CountDigit();
+        //Console.Write("Enter a number: ");
+        //int num = int.Parse(Console.ReadLine());
+        //int digitCount = countdigit.CountDigits(num);
+        //Console.WriteLine($"The number of digits in {num} is: {digitCount}");
+
+        //GreaterNumber GreaterNumber = new GreaterNumber();
+        //Console.WriteLine("Enter the first number:");
+        //int num1 = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Enter the second number:");
+        //int num2 = Convert.ToInt32(Console.ReadLine());
+        //int greaterNumber = GreaterNumber.Greaternumber(num1, num2);
+        //Console.WriteLine($"The greater number between {num1} and {num2} is: {greaterNumber}");
+
+        //AmrstrongNumber AmrstrongNumber = new AmrstrongNumber();
+        //Console.WriteLine("Armstrong Numbers between 1 and 100:");
+        //for (int i = 1; i <= 100; i++)
+        //{
+        //    if (AmrstrongNumber.IsArmstrongNumber(i))
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
+
+        //RotateArray RotateArray = new RotateArray();
+        //int[] arr = { 1, 2, 3, 4, 5 };
+        //int rotations = 2;
+        //Console.WriteLine("Original Array:");
+        //RotateArray.PrintArray(arr);
+        //RotateArray.LeftRotateArray(arr, rotations);
+        //Console.WriteLine($"\nArray after {rotations} left rotations:");
+        //RotateArray.PrintArray(arr);
+
+        //SquarePattern SquarePattern = new SquarePattern();
+        //Console.Write("Enter length of the square: ");
+        //int sideLength = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Printing square pattern:");
+        //SquarePattern.PrintSquare(sideLength);
+        //Console.ReadLine();
+
+        //RightTrianglePattern RightTrianglePattern = new RightTrianglePattern();
+        //Console.Write("Enter height of the right triangle: ");
+        //int height = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine("Right Triangle  Pattern:");
+        //RightTrianglePattern.PrintRightTriangle(height);
+
+        //CountCharacters countCharacters = new CountCharacters();
+        //Console.WriteLine("Enter a string:");
+        //string input = Console.ReadLine();
+        //int charCount = countCharacters.CountCharacter(input);
+        //Console.WriteLine($"Number of characters in the string: {charCount}");
+
+        //Console.Write("Enter a string containing numbers: ");
+        //string input = Console.ReadLine();
+        //CountNumbers countNumbers = new CountNumbers();
+        //CountNumbers.CountAllNumbers(input);
+
+
+        //SumArrayElements sumArrayElements = new SumArrayElements();
+        //Console.WriteLine("Enter the number of elements in the array:");
+        //int n = int.Parse(Console.ReadLine());
+        //int[] array = new int[n];
+        //Console.WriteLine("Enter the elements of the array:");
+        //for (int i = 0; i < n; i++)
+        //{
+        //    array[i] = int.Parse(Console.ReadLine());
+        //}
+        //int totalSum = sumArrayElements.SumArrayElement(array);
+        //Console.WriteLine("Sum of array elements: " + totalSum);
+
+        //NumberSwap numberSwap = new NumberSwap();
+        //double num1, num2;
+        //Console.Write("Enter the first number: ");
+        //num1 = Convert.ToInt32(Console.ReadLine());
+        //Console.Write("Enter the second number: ");
+        //num2 = Convert.ToInt32(Console.ReadLine());
+        //Console.WriteLine($"Before swapping: num1 = {num1}, num2 = {num2}");
+        //numberSwap.Swap(ref num1, ref num2);
+        //Console.WriteLine($"After swapping: num1 = {num1}, num2 = {num2}");
+
+        //StrongNumber strongNumber = new StrongNumber();
+        //Console.WriteLine("Strong numbers between 1 and 200:");
+        //for (int i = 1; i <= 200; i++)
+        //{
+        //    if (strongNumber.IsStrongNumber(i))
+        //    {
+        //        Console.WriteLine(i);
+        //    }
+        //}
     }
 }

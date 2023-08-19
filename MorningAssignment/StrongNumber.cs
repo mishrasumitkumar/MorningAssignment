@@ -1,4 +1,6 @@
-﻿namespace MorningAssignment;
+﻿using System.Reflection;
+
+namespace MorningAssignment;
 
 internal class StrongNumber
 {
@@ -22,5 +24,6 @@ internal class StrongNumber
             num /= 10;
         }
         return sum == originalNum;
+
     }
 }

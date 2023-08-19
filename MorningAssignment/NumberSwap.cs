@@ -2,10 +2,10 @@
 
 internal class NumberSwap
 {
-    public void Swap(ref double a, ref double b)
+    public void Swap(ref double a, out double b)
     {
         double temp = a;
-        a = b;
+        a = b=5;
         b = temp;
     }
 }
